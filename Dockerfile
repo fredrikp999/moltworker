@@ -19,7 +19,8 @@ RUN npm install -g pnpm
 # RUN npm install -g clawdbot@2026.1.24-3 \
 #    && clawdbot --version
 
-RUN npm install -g openclaw@2026.1.29
+RUN npm install -g openclaw@2026.2.1
+# 2026.1.29
 RUN openclaw --version
 
 
